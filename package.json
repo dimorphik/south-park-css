@@ -1,0 +1,25 @@
+{
+  "name": "south-park-css",
+  "version": "1.0.0",
+  "description": "South Park characters in CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -c-1 -a localhost -p 8080\" \"open http://localhost:8080/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimorphik/south-park-css.git"
+  },
+  "author": "dimorphik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimorphik/south-park-css/issues"
+  },
+  "homepage": "https://github.com/dimorphik/south-park-css#readme",
+  "devDependencies": {
+    "concurrently": "^6.5.1",
+    "http-server": "^14.0.0"
+  }
+}

@@ -1,0 +1,1970 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  position: relative;
+  margin: 30px;
+}
+
+.head {
+  background-color: #fdeec5; 
+}
+
+#stan {
+  position: absolute;
+  width: 205px;
+  height: 325px;
+}
+
+#stan .hat-main {
+  position: absolute;
+  background-color: #4875b9;
+  width: 183px;
+  height: 171px;
+  top: 23px;
+  left: 11px;
+  border-radius: 50% 50% 0 0;
+  clip-path: polygon(0 0, 100% 0, 100% 44%, -4000% 0);
+  transform: rotate(-3deg);
+}
+
+#stan .hat-band {
+  position: absolute;
+  background-color: #ee3056;
+  width: 194px;
+  height: 36px;
+  left: 5px;
+  top: 81px;
+  clip-path: polygon(0 100%, 12.5% 79%, 25% 67%, 38% 58%, 50% 56%, 75% 66%, 100% 100%, 100% 37%, 75% 8%, 50% 0, 25% 9%, 0 42%);
+  transform: rotate(-2deg);
+}
+
+#stan .hat-tassel-piece {
+  position: absolute;
+  width: 43px;
+  height: 3px;
+  top: 21px;
+  left: 70px;
+  background-color: #ee3056;
+  border: 1px solid #666;
+  border-radius: 6px;  
+}
+
+#stan .tassel1 {
+  transform: rotate(-183deg);  
+}
+
+#stan .tassel2 {
+  transform: rotate(-163deg);  
+}
+
+#stan .tassel3 {
+  transform: rotate(-138deg);  
+}
+
+#stan .tassel4 {
+  transform: rotate(-116deg);  
+}
+
+#stan .tassel5 {
+  transform: rotate(-92deg);  
+}
+
+#stan .tassel6 {
+  transform: rotate(-69deg);  
+}
+
+#stan .tassel7 {
+  transform: rotate(-44deg);  
+}
+
+#stan .tassel8 {
+  transform: rotate(-25deg);  
+}
+
+#stan .head {
+  position: absolute;
+  left: 9px;
+  top: 39px;
+  width: 188px;
+  height: 179px;
+  border-radius: 50%;
+}
+
+#stan .eyes {
+  position: absolute;
+  width: 126px;
+  height: 77px;  
+  left: 36px;
+  top: 86px;
+}
+
+#stan .eye-shape {
+  position: absolute;
+  width: 39%;
+  height: 75%;
+  border-radius: 50%;
+}
+
+#stan .eye {
+  background-color: #fff;
+}
+
+#stan .eye-back {
+  background-color: #999798;
+}
+
+#stan .eye.left {
+  top: 19px;
+  left: 17px;
+  transform: rotate(33deg);
+}
+
+#stan .eye-back.left {
+  top: 19px;
+  left: 18px;
+  transform: rotate(33deg);
+}
+
+#stan .eyebrow {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px;
+}
+
+#stan .eyebrow.left {
+  top: 14px;
+  left: 0px;  
+  transform: rotate(-45deg);  
+}
+
+#stan .eyebrow.right {
+  top: 12px;
+  left: 96px;
+  transform: rotate(37deg);
+}
+
+#stan .pupil {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #000;
+  border-radius: 50%;  
+}
+
+#stan .eye.left .pupil {
+  top: 22px;
+  left: 30px;
+}
+
+#stan .eye.right {
+  top: 17px;
+  left: 73px;
+  transform: rotate(-36deg);
+}
+
+#stan .eye-back.right {
+  top: 17px;
+  left: 72px;
+  transform: rotate(-36deg);
+}
+
+#stan .eye.right .pupil {
+  top: 19px;
+  left: 8px;
+}
+
+#stan .mouth {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 181px;
+  left: 88px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 24px solid #000;
+  transform: scale(1.5, 1) rotate(-4deg);
+}
+
+#stan .tooth {
+  position: absolute;
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+}
+
+#stan .tooth1 {
+  top: -22px;
+  left: -14px;
+  clip-path: polygon(0 0, 7px 0, 6px 6px, 3px 5px);
+}
+
+#stan .tooth2 {
+  top: -22px;
+  left: -7px;
+  clip-path: polygon(1px 0, 8px 0, 7px 7px, 0px 6px);
+}
+
+#stan .tooth3 {
+  top: -22px;
+  left: 1px;
+  clip-path: polygon(1px 0, 8px 0, 6px 7px, 0px 7px);
+}
+
+#stan .tooth4 {
+  top: -22px;
+  left: 9px;
+  clip-path: polygon(2px 0, 7px 0, 2px 7px, 0px 7px);
+}
+
+#stan .pants {
+  position: absolute;
+  background-color: #4f7dbb;
+  width: 131px;
+  height: 25px;
+  left: 44px;
+  top: 278px;
+}
+
+#stan .shoes {
+  position: absolute;
+  width: 160px;
+  height: 12px;
+  left: 30px;
+  top: 296px;
+}
+
+#stan .shoe {
+  position: absolute;
+  background-color: #3a353c;
+  width: 81px;
+  height: 12px;
+  left: -1px;
+  border-radius: 50%;
+}
+
+#stan .shoe.left {
+  top: 2px;
+  left: 1px;
+  clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+}
+
+#stan .shoe.right {
+  top: 3px;
+  left: 75px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+  clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+  transform: rotate(1deg);
+}
+
+#stan .jacket {
+  position: absolute;
+  width: 189px;
+  height: 100px;
+  left: 10px;
+  top: 190px;
+}
+
+#stan .jacket-piece {
+  background-color: #c8766a;  
+}
+
+#stan .jacket-piece1 {
+  position: absolute;
+  width: 126px;
+  height: 86px;
+  left: 32px;
+  top: 4px;
+}
+
+#stan .jacket-piece2 {
+  position: absolute;
+  width: 34px;
+  height: 48px;
+  left: 23px;
+  top: 0px;
+  transform: rotate(31deg);
+  border-radius: 22px 1px 1px 11px;
+}
+
+#stan .jacket-piece3 {
+  position: absolute;
+  width: 34px;
+  height: 48px;
+  left: 136px;
+  top: 5px;
+  transform: rotate(-30deg);
+  border-radius: 1px 12px 18px 1px;
+}
+
+#stan .jacket-piece4 {
+  position: absolute;
+  width: 34px;
+  height: 48px;
+  left: 148px;
+  top: 34px;
+  transform: rotate(-20deg);
+  border-radius: 1px 0px 26px 1px;
+}
+
+#stan .jacket-piece5 {
+  position: absolute;
+  width: 41px;
+  height: 32px;
+  left: 6px;
+  top: 34px;
+  transform: rotate(-67deg);
+  border-radius: 12px 1px 1px 1px;
+}
+
+#stan .jacket-piece6 {
+    position: absolute;
+    width: 187px;
+    height: 48px;
+    left: 0px;
+    top: 50px;
+    transform: rotate(1deg);
+    border-radius: 50%;
+    clip-path: polygon(31px 20px, 160px 20px, 167px 50px, 20px 50px);
+}
+
+#stan .jacket .collar {
+  position: absolute;
+  width: 130px;
+  height: 43px;
+  left: 31px;
+  top: 0px;
+}
+
+#stan .collar-piece {
+  background-color: #f32e4a;
+}
+
+#stan .collar-piece1 {
+  position: absolute;
+  width: 15px;
+  height: 68px;
+  left: 25px;
+  top: -13px;
+  border-radius: 50%;
+  border: 1px solid #982e32;
+  transform: rotate(116deg);
+}
+
+#stan .collar-piece2 {
+  position: absolute;
+  width: 22px;
+  height: 68px;
+  left: 85px;
+  top: -14px;
+  border-radius: 50%;
+  border: 1px solid #982e32;
+  transform: rotate(65deg);
+}
+
+#stan .jacket .seam {
+  position: absolute;
+  width: 2px;
+  height: 57px;
+  left: 95px;
+  top: 40px;
+  background-color: #000;
+  transform: rotate(2deg);
+}
+
+#stan .button {
+  position: absolute;
+  background-color: #000;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+#stan .button1 {
+  top: 43px;
+  left: 87px;
+}
+
+#stan .button2 {
+  top: 62px;
+  left: 86px;
+}
+
+#stan .button3 {
+  top: 83px;
+  left: 85px;
+}
+
+#stan .sleeve {
+  position: absolute;
+  width: -2px;
+  height: 20px;
+  border-right: 1px solid #000;
+}
+
+#stan .sleeve.left {
+  top: 45px;
+  left: 33px;
+  transform: rotate(13deg);
+}
+
+#stan .sleeve.right {
+  top: 46px;
+  left: 154px;
+  transform: rotate(-10deg);
+}
+
+#stan .mitten {
+  position: absolute;
+  background-color: #ec2f4d;
+  border: 1px solid #bc4352;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+#stan .mitten .thumb {
+  position: absolute;
+  background-color: #ec2f4d;
+  border: 1px solid #bc3843;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+#stan .mitten.left {
+  top: 245px;
+  left: 15px;  
+}
+
+#stan .mitten.left .thumb {
+  top: 4px;
+  left: 17px;  
+}
+
+#stan .mitten.right {
+  top: 250px;
+  left: 164px;
+}
+
+#stan .mitten.right .thumb {
+  top: 4px;
+  left: -3px;
+}
+
+/*********************************/
+
+#kyle {
+  position: absolute;  
+  width: 250px;
+  height: 325px;
+  left: 200px;  
+}
+
+#kyle .head {
+  position: absolute;
+  left: 28px;
+  top: 34px;
+  width: 193px;
+  height: 181px;
+  border-radius: 50%;
+}
+
+#kyle .hat .top {
+  position: absolute;
+  background-color: #56b849;
+  width: 191px;
+  height: 78px;
+  left: 30px;
+  top: 9px;
+  border-radius: 21px 21px 0 0;
+}
+
+#kyle .hat .flap {
+  position: absolute;
+  background-color: #56b849;
+  width: 36px;
+  height: 96px;
+  top: 74px;
+  border-top: 1px solid #777;  
+  border-radius: 50%;
+}
+
+#kyle .hat .flap.left {
+  left: 9px;  
+  transform: rotate(20deg);   
+}
+
+#kyle .hat .flap.right {
+  left: 205px;
+  transform: rotate(-21deg);
+}
+
+#kyle .hat .brim {  
+  position: absolute;
+  background-color: #00ad53;
+  width: 164px;
+  height: 54px;
+  top: 44px;
+  left: 44px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 87%, 50% 83%, 25% 87%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 87%, 50% 83%, 25% 87%, 0 100%);
+  border: 1px solid #666;
+}
+
+#kyle .eyes {
+  position: absolute;
+  width: 122px;
+  height: 85px;
+  left: 64px;
+  top: 73px;
+}
+
+#kyle .eye-shape {
+  position: absolute;
+  width: 44%;
+  height: 75%;
+  border-radius: 50%;
+}
+
+#kyle .eye {
+  background-color: #fff;
+}
+
+#kyle .eye.left {
+  left: 8px;
+  top: 19px;
+  transform: rotate(31deg);
+}
+
+#kyle .eye.right {
+  left: 64px;
+  top: 20px;
+  transform: rotate(-15deg);
+}
+
+#kyle .eye-back {
+  background-color: #999798;
+}
+
+#kyle .eye-back.left {
+  left: 8px;
+  top: 18px;
+  transform: rotate(31deg);
+}
+
+#kyle .eye-back.right {
+  left: 64px;
+  top: 19px;
+  transform: rotate(-15deg);
+}
+
+#kyle .pupil {
+  position: absolute;
+  background-color: #000;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+#kyle .eye.left .pupil {
+  left: 32px;
+  top: 25px;
+}
+
+#kyle .eye.right .pupil {
+  left: 9px;
+  top: 25px;
+}
+
+#kyle .eyebrow {
+  position: absolute;
+  width: 32px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px;
+}
+
+#kyle .eyebrow.left {
+  top: 12px;
+  left: 5px;
+  transform: rotate(-32deg); 
+}
+
+#kyle .eyebrow.right {
+  top: 13px;
+  left: 85px;
+  transform: rotate(25deg);
+}
+
+#kyle .between-eyes {
+  position: absolute;
+  background-color: #666;
+  width: 0px;
+  height: 9px;
+  left: 63px;
+  top: 43px;
+  border-left: 1px solid #666;
+  border-radius: 3px;
+}
+
+#kyle .mouth {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 177px;
+  left: 111px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 25px solid #000;
+  transform: scale(1.7, 1) rotate(-3deg);
+}
+
+#kyle .tooth {
+  position: absolute;
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+}
+
+#kyle .tooth1 {
+  top: -24px;
+  left: -15px;
+  -webkit-clip-path: polygon(0 0, 7px 0, 6px 6px, 3px 5px);
+  clip-path: polygon(0 0, 7px 0, 6px 7px, 2px 6px);
+}
+
+#kyle .tooth2 {
+  top: -24px;
+  left: -8px;
+  -webkit-clip-path: polygon(1px 0, 8px 0, 7px 7px, 0px 6px);
+  clip-path: polygon(1px 0, 8px 0, 7px 8px, 0px 7px);
+}
+
+#kyle .tooth3 {
+  top: -24px;
+  left: 0px;
+  -webkit-clip-path: polygon(1px 0, 8px 0, 6px 7px, 0px 7px);
+  clip-path: polygon(1px 0, 9px 0, 7px 8px, 0px 8px);
+}
+
+#kyle .tooth4 {
+  top: -24px;
+  left: 8px;
+  -webkit-clip-path: polygon(2px 0, 7px 0, 2px 7px, 0px 7px);
+  clip-path: polygon(2px 0, 8px 0, 4px 7px, 0px 8px);
+}
+
+#kyle .jacket {
+  position: absolute;
+  width: 198px;
+  height: 102px;
+  left: 25px;
+  top: 188px;
+}
+
+#kyle .jacket-piece {
+  background-color: #ec6a2c;  
+}
+
+#kyle .jacket-piece1 {
+  position: absolute;
+  width: 126px;
+  height: 86px;
+  left: 37px;
+  top: 4px;
+}
+
+#kyle .jacket-piece2 {
+  position: absolute;
+  width: 34px;
+  height: 48px;
+  left: 23px;
+  top: 0px;
+  transform: rotate(31deg);
+  border-radius: 22px 1px 1px 11px;
+}
+
+#kyle .jacket-piece3 {
+  position: absolute;
+  width: 34px;
+  height: 48px;
+  left: 143px;
+  top: 5px;
+  transform: rotate(-30deg);
+  border-radius: 1px 12px 18px 1px;
+}
+
+#kyle .jacket-piece4 {
+  position: absolute;
+  width: 34px;
+  height: 53px;
+  left: 156px;
+  top: 34px;
+  transform: rotate(-21deg);
+  border-radius: 1px 0px 26px 1px;
+}
+
+#kyle .jacket-piece5 {
+  position: absolute;
+  width: 41px;
+  height: 32px;
+  left: 6px;
+  top: 34px;
+  transform: rotate(-67deg);
+  border-radius: 12px 1px 1px 1px;
+}
+
+#kyle .jacket-piece6 {
+  position: absolute;
+  width: 187px;
+  height: 48px;
+  left: 3px;
+  top: 51px;
+  transform: rotate(2deg);
+  border-radius: 50%;
+  -webkit-clip-path: polygon(31px 20px, 160px 20px, 167px 50px, 20px 50px);
+  clip-path: polygon(31px 20px, 160px 20px, 167px 50px, 20px 50px);
+}
+
+#kyle .jacket .collar {
+  position: absolute;
+  width: 130px;
+  height: 43px;
+  left: 31px;
+  top: 0px;
+}
+
+#kyle .collar-piece {
+  background-color: #0da751;
+}
+
+#kyle .collar-piece1 {
+  position: absolute;
+  width: 26px;
+  height: 68px;
+  left: 25px;
+  top: -21px;
+  border-radius: 50%;
+  border: 1px solid #2c5f34;
+  transform: rotate(116deg);
+}
+
+#kyle .collar-piece2 {
+  position: absolute;
+  width: 20px;
+  height: 68px;
+  left: 91px;
+  top: -17px;
+  border-radius: 50%;
+  border: 1px solid #2c5f34;
+  transform: rotate(71deg);
+}
+
+#kyle .jacket .seam {
+  position: absolute;
+  width: 2px;
+  height: 68px;
+  left: 101px;
+  top: 32px;
+  background-color: #000;
+  transform: rotate(0deg);
+}
+
+#kyle .sleeve {
+  position: absolute;
+  width: -2px;
+  height: 26px;
+  border-right: 1px solid #000;
+}
+
+#kyle .sleeve.left {
+  top: 45px;
+  left: 35px;
+  transform: rotate(13deg);
+}
+
+#kyle .pocket {
+  position: absolute;
+  border: 2px solid #3c1609;
+  width: 25px;
+  height: 29px;
+}
+
+#kyle .pocket.left {
+  top: 43px;
+  left: 56px;
+}
+
+#kyle .pocket.right {
+  top: 42px;
+  left: 117px;
+}
+
+#kyle .pocket .flap {
+  position: absolute;
+  top: -9px;
+  left: 3px;
+  border: solid black;
+  border-width: 0px 2px 2px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); 
+}
+
+#kyle .sleeve.right {
+  top: 44px;
+  left: 162px;
+  transform: rotate(-7deg);
+}
+
+#kyle .mitten {
+  position: absolute;
+  background-color: #57b948;
+  border: 1px solid #61a359;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+#kyle .mitten .thumb {
+  position: absolute;
+  background-color: #57b948;
+  border: 1px solid #478848;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+#kyle .mitten.left {
+  top: 249px;
+  left: 27px;
+}
+
+#kyle .mitten.left .thumb {
+  top: 2px;
+  left: 21px;
+}
+
+#kyle .mitten.right {
+  top: 253px;
+  left: 188px;
+}
+
+#kyle .mitten.right .thumb {
+  top: 3px;
+  left: -4px;
+}
+
+#kyle .pants {
+  position: absolute;
+  background-color: #277c75;
+  width: 128px;
+  height: 25px;
+  left: 61px;
+  top: 278px;
+}
+
+#kyle .shoes {
+  position: absolute;
+  width: 160px;
+  height: 12px;
+  left: 45px;
+  top: 296px;
+}
+
+#kyle .shoe {
+  position: absolute;
+  background-color: #3a353c;
+  width: 81px;
+  height: 12px;
+  left: -1px;
+  border-radius: 50%;
+}
+
+#kyle .shoe.left {
+  top: 2px;
+  left: 6px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+  clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+}
+
+#kyle .shoe.right {
+  top: 2px;
+  left: 74px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+  clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+  transform: rotate(0deg);
+}
+
+/*********************************/
+
+#cartman {
+  position: absolute;  
+  width: 340px;
+  height: 325px;
+  left: 430px;    
+}
+
+#cartman .head {
+  position: absolute;
+  width: 237px;
+  height: 194px;
+  left: 51px;
+  top: 22px;
+  border-radius: 50%;
+}
+
+#cartman .hat .main {
+  position: absolute;
+  background-color: #01b8c6;
+  width: 235px;
+  height: 179px;
+  left: 51px;
+  top: 22px;
+  border-radius: 50% 50% 0 0;
+  clip-path: polygon(0 0, 100% 0, 100% 46%, 93% 41%, 87% 38%, 75% 33%, 67% 31%, 50% 29%, 37% 30%, 25% 33%, 13% 38%, 0 45%);
+  transform: rotate(-4deg);
+}
+
+#cartman .hat .band {
+  background-color: #fee622;
+  position: absolute;
+  width: 238px;
+  height: 38px;
+  left: 48px;
+  top: 72px;
+  transform: rotate(-4deg);
+  clip-path: polygon(2px 30px, 13% 17px, 25% 8px, 37% 2px, 50% 0px, 67% 4px, 75% 8px, 82% 13px, 237px 30px, 
+100% 100%, 82% 21px, 75% 16px, 67% 11px, 50% 7px, 33% 11px, 25% 16px, 13% 25px, 0 100%);
+  border-top: 1px solid #666;
+}
+
+#cartman .hat .pompom {
+  position: absolute;
+  width: 69px;
+  height: 23px;
+  left: 130px;
+  top: 10px;
+}
+
+#cartman .hat .pompom-piece {
+  background-color: #ffdf23; 
+}
+
+#cartman .hat .pompom1 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 0px;
+  top: 9px;
+  border-radius: 21px 9px 6px 13px;
+}
+
+#cartman .hat .pompom2 {
+  position: absolute;
+  width: 17px;
+  height: 10px;
+  left: 6px;
+  top: 8px;
+  border-radius: 1px 1px 1px 1px;
+  transform: rotate(-41deg);
+}
+
+#cartman .hat .pompom2 {
+  position: absolute;
+  width: 17px;
+  height: 10px;
+  left: 6px;
+  top: 8px;
+  border-radius: 1px 6px 1px 1px;
+  transform: rotate(-41deg);
+}
+
+#cartman .hat .pompom3 {
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  left: 14px;
+  top: 2px;
+  border-radius: 10px 6px 1px 1px;
+  transform: rotate(0deg);
+}
+
+#cartman .hat .pompom4 {
+  position: absolute;
+  width: 7px;
+  height: 11px;
+  left: 21px;
+  top: 12px;
+  border-radius: 3px;
+}
+
+#cartman .hat .pompom5 {    
+  position: absolute;
+  width: 9px;
+  height: 14px;
+  left: 29px;
+  top: 3px;
+  border-radius: 4px 3px 1px 1px;
+  transform: rotate(0deg);
+}
+
+#cartman .hat .pompom6 {      
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: 21px;
+  top: 7px;
+  border-radius: 1px 1px 1px 1px;
+  transform: rotate(-24deg);
+}
+
+#cartman .hat .pompom7 {      
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  left: 33px;
+  top: 1px;
+  border-radius: 12px 12px 11px 11px;
+}
+
+#cartman .hat .pompom8 {      
+  position: absolute;
+  width: 19px;
+  height: 14px;
+  left: 50px;
+  top: 6px;
+  border-radius: 12px 17px 17px 30px;
+}
+
+#cartman .chin {
+  position: absolute;
+  width: 188px;
+  height: 39px;
+  left: 80px;
+  top: 167px;
+  transform: rotate(-2deg);
+}
+
+#cartman .chin-piece {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-bottom: 1px solid #aaa48e;
+}
+
+#cartman .chin1 {
+  position: absolute;
+  width: 31px;
+  height: 16px;
+  left: 1px;
+  top: -5px;
+  transform: rotate(36deg);
+}
+
+#cartman .chin2 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  left: 27px;
+  top: 7px;
+  transform: rotate(31deg);
+}
+
+#cartman .chin3 {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  left: 37px;
+  top: 12px;
+  transform: rotate(22deg);
+}
+
+#cartman .chin4 {
+  position: absolute;
+  width: 37px;
+  height: 16px;
+  left: 48px;
+  top: 18px;
+  transform: rotate(12deg);
+}
+
+#cartman .chin5 {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  left: 82px;
+  top: 22px;
+  transform: rotate(7deg);
+}
+
+#cartman .chin6 {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  left: 94px;
+  top: 23px;
+  transform: rotate(0deg);
+}
+
+#cartman .chin7 {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 104px;
+  top: 20px;
+  transform: rotate(-16deg);
+}
+
+#cartman .chin8 {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 128px;
+  top: 11px;
+  transform: rotate(-26deg);
+}
+
+#cartman .chin9 {
+  position: absolute;
+  width: 29px;
+  height: 16px;
+  left: 151px;
+  top: -2px;
+  transform: rotate(-32deg);
+}
+
+#cartman .chin10 {
+  position: absolute;
+  width: 10px;
+  height: 16px;
+  left: 175px;
+  top: -12px;
+  transform: rotate(-40deg);
+}
+
+#cartman .lip {
+  position: absolute;
+  width: 52px;
+  height: 12px;
+  left: 152px;
+  top: 192px;
+}
+
+#cartman .lip-piece {
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  left: 152px;
+  top: 190px;
+  border-bottom: 1px solid #afa291;
+}
+
+#cartman .lip-piece1 {
+  position: absolute;
+  width: 12px;
+  height: 3px;
+  left: 3px;
+  top: 1px;
+  border-bottom: 1px solid #afa291;
+  transform: rotate(13deg);
+}
+
+#cartman .lip-piece2 {
+  position: absolute;
+  width: 12px;
+  height: 3px;
+  left: 14px;
+  top: 2px;
+  border-bottom: 1px solid #afa291;
+  transform: rotate(2deg);
+}
+
+#cartman .lip-piece3 {
+  position: absolute;
+  width: 21px;
+  height: 5px;
+  left: 25px;
+  top: -1px;
+  border-bottom: 1px solid #afa291;
+  transform: rotate(-9deg);
+}
+
+#cartman .eyes {
+  position: absolute;
+  width: 122px;
+  height: 85px;
+  left: 64px;
+  top: 73px;
+}
+
+#cartman .eye-shape {
+  position: absolute;
+  width: 45%;
+  height: 81%;
+  border-radius: 50%;
+}
+
+#cartman .eye {
+  background-color: #fff;
+}
+
+#cartman .eye.left {
+  left: 54px;
+  top: 10px;
+  transform: rotate(31deg);
+}
+
+#cartman .eye.right {
+  left: 112px;
+  top: 12px;
+  transform: rotate(-15deg);
+}
+
+#cartman .eye-back {
+  background-color: #999798;
+}
+
+#cartman .eye-back.left {
+  left: 54px;
+  top: 9px;
+  transform: rotate(31deg);
+}
+
+#cartman .eye-back.right {
+  left: 112px;
+  top: 11px;
+  transform: rotate(-15deg);
+}
+
+#cartman .pupil {
+  position: absolute;
+  background-color: #000;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+#cartman .eye.left .pupil {
+  left: 33px;
+  top: 24px;
+}
+
+#cartman .eye.right .pupil {
+  left: 15px;
+  top: 26px;
+}
+
+#cartman .between-eyes {
+  position: absolute;
+  background-color: #666;
+  width: 0px;
+  height: 10px;
+  left: 111px;
+  top: 35px;
+  border-left: 1px solid #666;
+  border-radius: 3px;
+}
+
+#cartman .mouth {
+  position: absolute;
+  background-color: #000;
+  width: 41px;
+  height: 22px;
+  left: 152px;
+  top: 172px;
+  clip-path: polygon(0 4px, 6px 1px, 8px 0px, 36px 1px, 100% 3px, 80% 100%, 33% 83%);
+}
+
+#cartman .tooth {
+  position: absolute;
+  background-color: #fff;
+  width: 10px;
+  height: 4px;
+}
+
+#cartman .tooth1 {
+  top: 3px;
+  left: 8px;
+  -webkit-clip-path: polygon(0 0, 7px 0, 6px 6px, 3px 5px);
+  clip-path: polygon(3px 0, 8px 0, 7px 5px, 0px 6px);
+}
+
+#cartman .tooth2 {
+  top: 3px;
+  left: 16px;
+  -webkit-clip-path: polygon(0 0, 7px 0, 6px 6px, 3px 5px);
+  clip-path: polygon(3px 0, 10px 0, 9px 5px, 0px 11px);
+}
+
+#cartman .tooth3 {
+  top: 4px;
+  left: 26px;
+  -webkit-clip-path: polygon(0 0, 7px 0, 6px 6px, 3px 5px);
+  clip-path: polygon(3px 0, 10px 0, 9px 5px, 0px 11px);
+}
+
+#cartman .jacket {
+  position: absolute;
+  width: 311px;
+  height: 150px;
+  left: 13px;
+  top: 148px;
+}
+
+#cartman .jacket-piece {
+  background-color: #ee304c;  
+}
+
+#cartman .jacket-piece1 {
+  position: absolute;
+  width: 273px;
+  height: 115px;
+  left: 21px;
+  top: 10px;
+  border-radius: 30px;
+}
+
+#cartman .jacket-piece2 {
+  position: absolute;
+  width: 34px;
+  height: 55px;
+  left: 25px;
+  top: 0px;
+  transform: rotate(39deg);
+  border-radius: 25px 1px 1px 11px;
+}
+
+#cartman .jacket-piece3 {
+  position: absolute;
+  width: 35px;
+  height: 64px;
+  left: 263px;
+  top: 5px;
+  transform: rotate(-30deg);
+  border-radius: 50%;
+}
+
+#cartman .jacket-piece4 {
+  position: absolute;
+  width: 206px;
+  height: 100px;
+  left: 30px;
+  top: 44px;
+  transform: rotate(0deg);
+  border-radius: 0px 0px 66px 65px;
+}
+
+#cartman .jacket-piece5 {
+  position: absolute;
+  width: 41px;
+  height: 32px;
+  left: 2px;
+  top: 34px;
+  transform: rotate(-50deg);
+  border-radius: 12px;
+}
+
+#cartman .jacket-piece6 {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  left: 294px;
+  top: 37px;
+  transform: rotate(32deg);
+  border-radius: 0 50% 0 0;
+}
+
+#cartman .jacket-piece7 {
+  position: absolute;
+  width: 71px;
+  height: 39px;
+  left: 232px;
+  top: 86px;
+  border-radius: 0 0 30px 0;
+  transform: rotate(0deg);
+}
+
+#cartman .jacket-piece8 {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 194px;
+  top: 121px;
+  border-radius: 0 0 0 0;
+  clip-path: polygon(0 0, 100% 0, 100% 3px, 41% 7px, 29% 7px, 0 18px);
+}
+
+#cartman .jacket-piece9 {
+  position: absolute;
+  width: 17px;
+  height: 37px;
+  left: 18px;
+  top: 85px;
+  border-radius: 0 0 0 13px;
+  transform: rotate(-13deg);
+}
+
+#cartman .jacket-piece10 {
+  position: absolute;
+  width: 63px;
+  height: 27px;
+  left: 21px;
+  top: 111px;
+  border-radius: 0 0 0 0;
+  transform: rotate(0deg);
+  clip-path: polygon(0 0, 100% 0, 63px 27px, 40px 26px, 35px 24px, 30px 22px, 25px 19px, 20px 17px, 15px 15px, 10px 12px, 5px 8px, 0px 4px);
+}
+
+#cartman .jacket .seam-piece1 {
+  position: absolute;
+  width: 2px;
+  height: 37px;
+  left: 171px;
+  top: 62px;
+  border-right: 1px solid #000;
+  transform: rotate(-1deg);
+}
+
+#cartman .jacket .seam-piece2 {
+  position: absolute;
+  width: 2px;
+  height: 46px;
+  left: 170px;
+  top: 98px;
+  border-right: 1px solid #000;
+  transform: rotate(3deg);
+}
+
+#cartman .button {
+  position: absolute;
+  background-color: #000;
+  width: 4px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+#cartman .button1 {
+  top: 70px;
+  left: 162px;
+}
+
+#cartman .button2 {
+  top: 98px;
+  left: 165px;
+  transform: rotate(-3deg);
+}
+
+#cartman .button3 {
+  top: 124px;
+  left: 162px;
+  transform: rotate(1deg);
+}
+
+#cartman .mitten-piece {
+  background-color: #ffe11d;
+}
+
+#cartman .mitten {
+  position: absolute;
+  width: 72px;
+  height: 55px;
+}
+
+#cartman .mitten.left {
+  top: 188px;
+  left: 4px;
+}
+
+#cartman .mitten.right {
+  top: 183px;
+  left: 267px;
+}
+
+#cartman .mitten.left .mitten-piece1 {
+  position: absolute;
+  width: 61px;
+  height: 44px;
+  left: 5px;
+  top: 4px;
+  border-radius: 50%;
+  clip-path: polygon(0 0, 21px 2px, 56px 21px, 59px 26px, 61px 33px, 61px 44px, 0 44px);
+}
+
+#cartman .mitten.left .mitten-piece2 {
+  position: absolute;
+  width: 43px;
+  height: 44px;
+  left: 3px;
+  top: 4px;
+  border-radius: 50%;
+  clip-path: polygon(0 0, 25px 2px, 43px 16px, 43px 44px, 0 44px);
+}
+
+#cartman .mitten.left .mitten-piece3 {
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 12px;
+  top: 23px;
+  border-radius: 50%;
+}
+
+#cartman .mitten.right .mitten-piece1 {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  left: 5px;
+  top: 22px;
+  border-radius: 50%;
+  transform: rotate(-16deg);
+}
+
+#cartman .mitten.right .mitten-piece2 {
+  position: absolute;
+  width: 43px;
+  height: 40px;
+  left: 15px;
+  top: 5px;
+  border-radius: 50%;
+  transform: rotate(131deg);
+}
+
+#cartman .mitten.right .mitten-piece3 {
+  position: absolute;
+  width: 56px;
+  height: 53px;
+  left: 8px;
+  top: 6px;
+  border-radius: 24% 46% 0 0;
+  transform: rotate(79deg);
+  clip-path: polygon(0px 0px, 56px 0, 56px -5px, -42px 53px);
+}
+
+#cartman .mitten.right .mitten-piece4 {
+  position: absolute;
+  width: 43px;
+  height: 39px;
+  left: 21px;
+  top: 12px;
+  border-radius: 50%;
+  transform: rotate(16deg);
+}
+
+#cartman .pants {
+  position: absolute;
+  background-image: url('./images/brown-fabric-tile.jpg');
+  width: 255px;
+  height: 32px;
+  left: 42px;
+  top: 270px;
+  clip-path: polygon(0 0, 255px 0, 245px 32px, 11px 32px);
+}
+
+#cartman .shoes {
+  position: absolute;
+  width: 254px;
+  height: 12px;
+  left: 40px;
+  top: 294px;
+}
+
+#cartman .shoe {
+  position: absolute;
+  background-color: #3a353c;
+  width: 134px;
+  height: 12px;
+  left: -1px;
+  border-radius: 50%;
+}
+
+#cartman .shoe.left {
+  top: 3px;
+  left: 5px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+  clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+}
+
+#cartman .shoe.right {
+  top: 3px;
+  left: 120px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+  clip-path: polygon(0 0, 100% 0, 100% 8px, 50% 7px, 0 8px);
+}
+
+/*********************************/
+
+#kenny {
+  position: absolute; 
+  width: 242px;
+  height: 325px;
+  left: 746px;      
+}
+
+#kenny .head {
+  position: absolute;
+  width: 134px;
+  height: 119px;
+  left: 45px;
+  top: 57px;
+  border-radius: 50%;
+}
+
+#kenny .eyes {
+  position: absolute;
+  width: 122px;
+  height: 85px;
+  left: 5px;
+  top: 71px;
+}
+
+#kenny .eye-shape {
+  position: absolute;
+  width: 45%;
+  height: 75%;
+  border-radius: 50%;
+}
+
+#kenny .eye {
+  background-color: #fff;
+}
+
+#kenny .eye.left {
+  left: 54px;
+  top: 10px;
+  transform: rotate(31deg);
+}
+
+#kenny .eye.right {
+  left: 111px;
+  top: 16px;
+  transform: rotate(-15deg);
+}
+
+#kenny .eye-back {
+  background-color: #999798;
+}
+
+#kenny .eye-back.left {
+  left: 54px;
+  top: 9px;
+  transform: rotate(31deg);
+}
+
+#kenny .eye-back.right {
+  left: 111px;
+  top: 15px;
+  transform: rotate(-15deg);
+}
+
+#kenny .pupil {
+  position: absolute;
+  background-color: #000;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+#kenny .eye.left .pupil {
+  left: 33px;
+  top: 24px;
+}
+
+#kenny .eye.right .pupil {
+  left: 18px;
+  top: 23px;
+}
+
+#kenny .between-eyes {
+  position: absolute;
+  background-color: #666;
+  width: 0px;
+  height: 10px;
+  left: 110px;
+  top: 37px;
+  border-left: 1px solid #666;
+  border-radius: 3px;
+  transform: rotate(6deg);
+}
+
+#kenny .jacket-lining {
+  position: absolute;
+  width: 138px;
+  height: 121px;
+  left: 43px;
+  top: 55px;
+  transform: rotate(3deg);
+}
+
+#kenny .jacket-lining-piece {
+  position: absolute;
+  background-image: url('./images/brown-fabric-tile.jpg');
+}
+
+#kenny .jacket-lining-left {
+  width: 123px;
+  height: 120px;
+  border-radius: 103px 0px 0px 89px;
+  top: 2px;
+  clip-path: polygon(0 0, 73px 0, 50px 12.5%, 34px 25%, 27px 37%, 25px 50%, 27px 62%, 34px 75%, 47px 87%, 71px 120px, 0 121px);
+}
+
+#kenny .jacket-lining-left-shadow {
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+  width: 123px;
+  height: 120px;
+  border-radius: 103px 0px 0px 89px;
+  left: 2px;
+  top: 2px;
+  -webkit-clip-path: polygon(0 0, 73px 0, 50px 12.5%, 34px 25%, 27px 37%, 25px 50%, 27px 62%, 34px 75%, 47px 87%, 71px 120px, 0 121px);
+  clip-path: polygon(0 0, 72px 0, 50px 12.5%, 34px 25%, 27px 37%, 25px 50%, 27px 62%, 34px 75%, 47px 87%, 70px 120px, 0 121px);
+}
+
+#kenny .jacket-lining-right {
+  width: 123px;
+  height: 120px;
+  border-radius: 0px 61px 56px 0px;
+  top: 2px;
+  left: 18px;
+  clip-path: polygon(53px 0, 123px 0, 123px 120px, 53px 120px, 76px 87%, 90px 75%, 97px 63%, 99px 50%, 96px 37%, 89px 25%, 74px 13%);
+}
+
+#kenny .jacket .hood {
+  background-color: #ef6500;
+  position: absolute;
+  width: 219px;
+  height: 222px;
+  left: 8px;
+  top: 8px;
+  border-radius: 50%;
+  border-bottom: 1px solid #bc5404;  
+}
+
+#kenny .jacket .opening {
+  position: absolute;
+  width: 156px;
+  height: 139px;
+  left: 36px;
+  top: 55px;
+  border: 1px solid #491f0f;
+  transform: rotate(3deg);
+  border-radius: 50%;
+}
+
+#kenny .jacket .drawstring {
+  position: absolute;
+  width: 29px;
+  height: 49px;
+  left: 95px;
+  top: 176px;
+}
+
+#kenny .jacket .drawstring-piece {
+  position: absolute;
+  border-bottom: 1px solid #000;  
+}
+
+#kenny .jacket .drawstring-left1 {
+  width: 17px;
+  height: 4px;
+  left: 2px;
+  top: 7px;
+  transform: rotate(-71deg);
+}
+
+#kenny .jacket .drawstring-left2 {
+  width: 17px;
+  height: 4px;
+  left: -4px;
+  top: 22px;
+  transform: rotate(-67deg);
+}
+
+#kenny .jacket .drawstring-right1 {
+  width: 12px;
+  height: 4px;
+  left: 9px;
+  top: 6px;
+  transform: rotate(-106deg);
+}
+
+#kenny .jacket .drawstring-right2 {
+  width: 19px;
+  height: 4px;
+  left: 7px;
+  top: 20px;
+  transform: rotate(-87deg);
+}
+
+#kenny .jacket .drawstring-right3 {
+  width: 12px;
+  height: 4px;
+  left: 12px;
+  top: 36px;
+  transform: rotate(-103deg);
+}
+
+#kenny .jacket .body {
+  position: absolute;
+  width: 198px;
+  height: 97px;
+  left: 16px;
+  top: 188px;
+}
+
+#kenny .jacket-piece {
+  background-color: #ef6500;  
+}
+
+#kenny .jacket-piece1 {
+  position: absolute;
+  width: 146px;
+  height: 77px;
+  left: 28px;
+  top: 11px;
+}
+
+#kenny .jacket-piece2 {
+  position: absolute;
+  width: 34px;
+  height: 48px;
+  left: 23px;
+  top: 0px;
+  transform: rotate(31deg);
+  border-radius: 22px 1px 1px 11px;
+}
+
+#kenny .jacket-piece3 {
+  position: absolute;
+  width: 34px;
+  height: 48px;
+  left: 148px;
+  top: 5px;
+  transform: rotate(-30deg);
+  border-radius: 1px 12px 18px 1px;
+}
+
+#kenny .jacket-piece4 {
+  position: absolute;
+  width: 34px;
+  height: 53px;
+  left: 161px;
+  top: 34px;
+  transform: rotate(-21deg);
+  border-radius: 1px 0px 26px 1px;
+}
+
+#kenny .jacket-piece5 {
+  position: absolute;
+  width: 41px;
+  height: 32px;
+  left: 5px;
+  top: 34px;
+  transform: rotate(-67deg);
+  border-radius: 12px 1px 1px 1px;
+}
+
+#kenny .jacket-piece6 {
+  position: absolute;
+  width: 187px;
+  height: 48px;
+  left: 3px;
+  top: 51px;
+  transform: rotate(2deg);
+  border-radius: 50%;
+  -webkit-clip-path: polygon(31px 20px, 160px 20px, 178px 50px, 20px 50px);
+  clip-path: polygon(31px 20px, 160px 20px, 178px 50px, 20px 50px);
+}
+
+#kenny .seam {
+  position: absolute;
+  width: 2px;
+  height: 55px;
+  left: 100px;
+  top: 43px;
+  background-color: #000;
+  transform: rotate(0deg);
+}
+
+#kenny .sleeve {
+  position: absolute;
+  width: -2px;
+  height: 14px;
+  border-right: 1px solid #000;
+}
+
+#kenny .sleeve.left {
+  top: 52px;
+  left: 32px;
+  transform: rotate(13deg);
+}
+
+#kenny .sleeve.right {
+  top: 54px;
+  left: 166px;
+  transform: rotate(-8deg);
+}
+
+#kenny .pants {
+  background-color: #ef6500;
+  position: absolute;
+  width: 128px;
+  height: 23px;
+  top: 279px;
+  left: 52px;
+}
+
+#kenny .shoes {
+  position: absolute;
+  background-color: #080109;
+  width: 142px;
+  height: 5px;
+  top: 301px;
+  left: 45px;
+  border-radius: 3px;
+}
+
+#kenny .mitten {
+  position: absolute;
+  background-image: url('./images/brown-fabric-tile.jpg');
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;  
+}
+
+#kenny .mitten .thumb {
+  position: absolute;
+  background-image: url('./images/brown-fabric-tile.jpg');
+  border: 1px solid #341707;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+#kenny .mitten.left {
+  top: 247px;
+  left: 13px;
+}
+
+#kenny .mitten.left .thumb {
+  top: 2px;
+  left: 21px;
+}
+
+#kenny .mitten.right {
+  top: 249px;
+  left: 186px;
+}
+
+#kenny .mitten.right .thumb {
+  top: 3px;
+  left: -4px;
+}
