@@ -6,6 +6,11 @@ I drew the South Park characters in CSS, because why not. Amirite?
 
 Here's link to the [image I used for reference](https://academy.vertabelo.com/blog/south-park-text-data-analysis-with-r-2/generated__boys-980.png_hu8c8364c187ae895fbfe57a675a16688c_307856_980x309_fill_q90_box_center.jpg).
 
-Just clone the repo and run `npm start`.
+Just clone the repo and run the following:
+
+```
+npm install
+npm start
+````
 
 Have fun!
